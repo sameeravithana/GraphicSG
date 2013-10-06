@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>camera.h</itemPath>
+      <itemPath>geometry.h</itemPath>
+      <itemPath>group.h</itemPath>
+      <itemPath>light.h</itemPath>
+      <itemPath>material.h</itemPath>
+      <itemPath>node.h</itemPath>
+      <itemPath>nodevisitor.h</itemPath>
+      <itemPath>reader.h</itemPath>
+      <itemPath>rendervisitor.h</itemPath>
+      <itemPath>scene.h</itemPath>
+      <itemPath>sceneroot.h</itemPath>
+      <itemPath>state.h</itemPath>
+      <itemPath>texture.h</itemPath>
+      <itemPath>transform.h</itemPath>
+      <itemPath>vertex.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>NodeVisitor.cpp</itemPath>
+      <itemPath>RenderVisitor.cpp</itemPath>
+      <itemPath>camera.cpp</itemPath>
+      <itemPath>geometry.cpp</itemPath>
+      <itemPath>group.cpp</itemPath>
+      <itemPath>light.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>material.cpp</itemPath>
+      <itemPath>node.cpp</itemPath>
+      <itemPath>reader.cpp</itemPath>
+      <itemPath>scene.cpp</itemPath>
+      <itemPath>sceneroot.cpp</itemPath>
+      <itemPath>state.cpp</itemPath>
+      <itemPath>texture.cpp</itemPath>
+      <itemPath>transform.cpp</itemPath>
+      <itemPath>vertex.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>glut</linkerLibLibItem>
+            <linkerLibLibItem>GLEW</linkerLibLibItem>
+            <linkerLibLibItem>GL</linkerLibLibItem>
+            <linkerLibLibItem>vrlib</linkerLibLibItem>
+            <linkerLibLibItem>png</linkerLibLibItem>
+            <linkerLibLibItem>GLU</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="NodeVisitor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RenderVisitor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="camera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="camera.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geometry.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geometry.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="group.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="group.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="light.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="light.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="material.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="material.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="node.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nodevisitor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="reader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="reader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rendervisitor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="scene.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="scene.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sceneroot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sceneroot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="state.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="state.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="texture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="texture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="transform.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="transform.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vertex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vertex.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="NodeVisitor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RenderVisitor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="camera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="camera.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geometry.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geometry.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="group.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="group.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="light.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="light.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="material.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="material.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="node.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nodevisitor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="reader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="reader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rendervisitor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="scene.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="scene.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sceneroot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sceneroot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="state.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="state.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="texture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="texture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="transform.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="transform.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vertex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vertex.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
